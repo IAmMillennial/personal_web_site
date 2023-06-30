@@ -6,8 +6,7 @@ let currentPlayer = 1;
 
 const message = document.querySelector('#message');
 
-// НОВЫЙ БЛОК КОДА
-// Получаем доступ к элементу с очередью игроков
+
 const turn = document.querySelector('#turn')
 
 
@@ -53,8 +52,6 @@ const handleCellClick = (e) => {
         message.textContent = 'Ничья!';
     } else {
         currentPlayer = currentPlayer === 1 ? 2 : 1;
-        // НОВЫЙ БЛОК КОДА
-        // Меняем текст сообщения об очереди
         turn.textContent = currentPlayer === 1 ? "Ход первого игрока" : "Ход второго игрока"
     }  
 };
