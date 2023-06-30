@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Личный сайт - Иван Иванов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Личный блог Ивана Иванова</h1>
+        <p>Изучаю программирование и делюсь интересами</p>
+    </header>
+
+    <main>
+        <hr>
+
+        <h2>Обо мне</h2>
+        <div id="about_me">
+            <img src="images/profile_photo.jpg" alt="фото профиля" id="profile_photo">
+            <p id="about_me_text">Привет! Меня зовут Иван и мне 12 лет. Я - начинающий программист. Обожаю писать код и играть в игры.</p>
+        </div>
+
+        <hr>
+
+        <h2>Мои любимые фильмы</h2>
+        <div id="favourite_movie">
+            <p>Мне нравятся фильмы Marvel:</p>
+            <ul>
+                <li>Мстители: Финал</li>
+                <li>Человек-паук: Вдали от дома</li>
+                <li>Доктор Стрендж</li>
+            </ul>
+
+            <p>Мой рейтинг супергероев</p>
+            <table>
+                <tr>
+                    <td>Супергерой</td>
+                    <td>Фотография</td>
+                    <td>Способности</td>
+                    <td>Место в рейтинге</td>
+                </tr>
+                <tr>
+                    <td>Капитан Марвел</td>
+                    <td><img src="images/captain_marvel.webp" alt="captain_marvel"></td>
+                    <td>Сверхчеловеческая сила, Фотонные бластеры, Полет</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Халк</td>
+                    <td><img src="images/hulk.webp" alt="hulk"></td>
+                    <td>Сверхчеловеческая сила, Регенерация, Трансформация, Интеллект</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Синее чудо</td>
+                    <td><img src="images/blue_marvel.webp" alt="blue_marvel"></td>
+                    <td>Поглощение энергии из Анти-Материи, Сверхчеловеческая сила, Полёт, Манипуляция анти-материей</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Часовой</td>
+                    <td><img src="images/sentry.webp" alt="sentry"></td>
+                    <td>Сверхчеловеческая сила, Бессмертие, Регенерация, Полет, Невидимость и др.</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Тор</td>
+                    <td><img src="images/thor.webp" alt="thor"></td>
+                    <td>Сверхчеловеческая сила, Неуязвимость, Управление стихиями, Полет, Вызов оружия, Телепортация</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            
+        </div>
+
+        <hr>
+
+        <h2>Игра "Крестики-нолики"</h2>
+        <div id="my_game">
+            <p>Чтобы поиграть в крестики-нолики, нажми на картинку</p>
+            <a href="my_game/game.html"><img src="images/my_game.png" alt="game"></a>
+        </div>
+
+        <hr>
+
+        <h2>Задай мне любой вопрос</h2>
+        <form>
+            <input id="form_text" type="text" placeholder="Текст вопроса">
+            <input id="form_button" type="submit" value="Отправить">
+        </form>
+        
+        <hr>
+    </main>
+
+    <footer>
+        Личный сайт Ивана Иванова (с) 2023
+    </footer>
+</body>
+</html>

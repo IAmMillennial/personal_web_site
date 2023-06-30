@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+#board {
+    width: 390px;
+    display: flex;
+    gap: 30px;
+    /* Элементы flex переносятся на новую строку или
+    колонку, если не помещаются в текущей */
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 21, 53, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 255, 255);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#turn, #message {
+    font-size: 20px
+}
